@@ -23,7 +23,7 @@ jobs:
         name: Repo Checkout
         uses: actions/checkout@v2
 
-      - id: python struture
+      - id: python
         name: Python Setup & Packages Installation
         uses: actions/setup-python@v2
         with:
@@ -31,7 +31,7 @@ jobs:
           cache: 'pip'
       - run: pip install -r requirements.txt
 
-      - id: jupyter play
+      - id: jupyter
         name: Jupyter Notebook Execution
         run: jupyter execute COVID-19.ipynb
         shell: bash 
