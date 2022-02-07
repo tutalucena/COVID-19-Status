@@ -1,0 +1,9 @@
+jupyterlab
+nbclient
+pandas
+numpy
+matplotlib
+seaborn
+sklearn
+math
+datetime
